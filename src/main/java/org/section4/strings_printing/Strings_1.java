@@ -20,7 +20,7 @@ public class Strings_1 {
             System.out.println("4.2 creating string by byte array . where it takes asce code");
             byte b[]= {65,66,67,68,69,70};
             System.out.println(" byte b[]= {65,66,67,68,69,70};\n");
-            String str2= new String(b);
+            String str2= new String(b,2,2);
             System.out.println(" byte :  " +b+" String str2: "+ str2);
 
         System.out.println("4.3");
