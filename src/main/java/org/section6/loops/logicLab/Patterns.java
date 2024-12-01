@@ -1,4 +1,4 @@
-package section4.loops;
+package org.section6.loops.logicLab;
 
 public class Patterns {
     // print pattern in 1-5 in x and y line like squre box

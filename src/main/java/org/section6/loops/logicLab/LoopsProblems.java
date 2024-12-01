@@ -1,4 +1,4 @@
-package section4.loops;
+package org.section6.loops.logicLab;
 
 import java.util.Scanner;
 
