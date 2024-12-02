@@ -1,0 +1,110 @@
+Here are some problems to practice each topic related to **Java methods**, progressing from basics to advanced concepts:
+
+---
+
+### **1. Basic Method Creation and Calling**
+**Problem**: Write a method `printMessage()` that prints "Welcome to Java Programming!" and call it from the `main` method.
+
+---
+
+### **2. Method with Parameters**
+**Problem**: Create a method `calculateSquare(int number)` that calculates and prints the square of the given number. Call it with the value `5`.
+
+---
+
+### **3. Method with Return Type**
+**Problem**: Write a method `findMax(int a, int b)` that returns the greater of two numbers. Call this method with the values `25` and `40` and print the result.
+
+---
+
+### **4. Method Overloading**
+**Problem**: Create overloaded methods `multiply(int a, int b)` and `multiply(int a, int b, int c)`. The first should multiply two integers, and the second should multiply three integers. Call both methods in the `main` method and print their results.
+
+---
+
+### **5. Static and Instance Methods**
+**Problem**:
+1. Create a **static method** `displayStatic()` that prints "This is a static method."
+2. Create an **instance method** `displayInstance()` that prints "This is an instance method."
+Call both from the `main` method.
+
+---
+
+### **6. Passing Primitive Arguments**
+**Problem**:
+Write a method `increment(int number)` that attempts to increase the value of `number` by 1. Call it with `10` and print the value of `number` after the method call.
+(Notice how primitives behave in Java!)
+
+---
+
+### **7. Passing Objects**
+**Problem**:
+Create a class `Student` with a `String name` property. Write a method `changeName(Student student)` that modifies the `name` of the passed `Student` object. Call the method and check whether the change persists.
+
+---
+
+### **8. Variable Arguments (Varargs)**
+**Problem**:
+Write a method `sum(int... numbers)` that calculates and returns the sum of all the numbers passed to it. Test it with 3, 5, and 7 arguments.
+
+---
+
+### **9. Command-Line Arguments**
+**Problem**:
+Write a program that accepts command-line arguments, calculates their sum, and prints it.
+For example, if run with `java SumArgs 10 20 30`, the program should output `Sum: 60`.
+
+---
+
+### **10. Recursive Methods**
+**Problem**:
+Write a recursive method `factorial(int n)` to calculate the factorial of a number. Call it with `5` and print the result.
+
+---
+
+### **11. Abstract Methods**
+**Problem**:
+1. Create an abstract class `Shape` with an abstract method `area()`.
+2. Create two subclasses `Circle` and `Rectangle`, implementing the `area()` method.
+3. In the `main` method, create objects of `Circle` and `Rectangle` and display their areas.
+
+---
+
+### **12. Method Overriding**
+**Problem**:
+1. Create a base class `Animal` with a method `speak()` that prints "Animal makes a sound."
+2. Create a subclass `Dog` that overrides the `speak()` method to print "Dog barks."
+3. Call `speak()` using both `Animal` and `Dog` objects.
+
+---
+
+### **13. Access Modifiers**
+**Problem**:
+1. Create a class `AccessExample` with the following methods:
+   - `publicMethod()`: Prints "Public method."
+   - `protectedMethod()`: Prints "Protected method."
+   - `defaultMethod()`: Prints "Default method."
+   - `privateMethod()`: Prints "Private method."
+2. Call these methods from the `main` method (hint: `privateMethod()` won't be accessible outside the class).
+
+---
+
+### **14. Static Methods in Interfaces**
+**Problem**:
+1. Create an interface `MathUtils` with a static method `max(int a, int b)` that returns the greater of two numbers.
+2. Call this static method in the `main` method and print the result.
+
+---
+
+### **15. Combined Practice Problem**
+**Problem**:
+Create a program for an online shopping cart:
+1. Define a class `Product` with properties `name` (String) and `price` (double).
+2. Write methods in a `ShoppingCart` class:
+   - `addProduct(Product p)`: Adds a product to the cart.
+   - `calculateTotal()`: Calculates and returns the total price of all products.
+3. Create 3 products, add them to the cart, and print the total price.
+
+---
+
+Let me know if you'd like to start solving any specific problem or need hints! 😊
