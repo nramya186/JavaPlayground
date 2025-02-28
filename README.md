@@ -34,30 +34,56 @@ Run and experiment with the code.
 📂 Project Structure
 
 JavaPlayground/
+
+
 │-- src/
+
 │   ├── section1/intro
+
 │   ├── section1/variables
+
 │   ├── section2/datatypes_var_n_literals
+
 │   ├── section3/operators
+
 │   ├── section4/strings_printing
+
 │   ├── section6/loops
+
 │   ├── section7/arrays
+
 │   ├── section7/arrays_logic_lab
+
 │   ├── section8/methods
+
 │   ├── section8/methods_logic_lab
+
 │   ├── section9/class_object
+
 │   ├── section10/inheritance
+
 │   ├── section11/abstract_class
+
 │   ├── section12/inner_class
+
 │   ├── section16/multithreading
+
 │   ├── section17/annotation_javadoc
+
 │   ├── section20/io_streams
+
 │   ├── section21/generics
+
 │   ├── section22/collection_framework
+
 │   ├── section25/jdbc
+
 │   ├── Logiclab_Map
+
 │-- README.md             # This file
+
 │-- build.gradle          # Gradle build file
+
 │-- .gitignore            # Files to be ignored by Git
 
 
