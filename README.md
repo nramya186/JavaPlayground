@@ -1,4 +1,3 @@
-Java Playground
 
 Welcome to Java Playground! 🎉 This repository is a collection of Java programs and concepts that I practice to enhance my Java skills.
 
